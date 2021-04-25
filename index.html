@@ -1,12 +1,48 @@
-<!doctype html>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Charles Morgado Test</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Charles Morgado</title>
+  <script src="js/update.js"></script>  
 </head>
-
 <body>
-  <h1>Charles Morgado Test</h1>
+  <header>
+    <h1 id= "myname"> Charles Willian Morgado</h1>
+    <img id="mypicture" src="picture/charles picture.jpg" alt="My picture">
+  </header>
+  <main>
+    <section>
+      <h2 id= "tittle">WDD 230: Assignment Portal</h2>
+    </section>
+    <nav>
+      <ul>
+        <li>Lesson 01</li>
+        <li>Lesson 02</li>
+        <li>Lesson 03</li>
+        <li>Lesson 04</li>
+        <li>Lesson 05</li>
+        <li>Lesson 06</li>
+        <li>Lesson 07</li>
+        <li>Lesson 08</li>
+        <li>Lesson 09</li>
+        <li>Lesson 10</li>
+        <li>Lesson 11</li>
+        <li>Lesson 12</li>
+        <li>Lesson 13</li>
+        <li>Lesson 14</li>
+      </ul>
+    </nav>
+  </main>
+  <footer>
+    &copy; <span id="year"></span> | Charles Morgado | Colombia |<a  id="byulink"href="https://www.byui.edu/online" target="_blank">BYUI online Lerning</a>
+    <br />
+    <span id="update"></span>
+    <script>
+      document.getElementById('year').innerHTML = retornarUpdate();
+      document.getElementById('update').innerHTML = retornarFecha();
+    </script>        
+  </footer>
 </body>
-
 </html>
