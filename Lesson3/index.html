@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="In this site we will have the information of the site plan for our weather page">
+        <link href= "css/normalize.css" rel= "stylesheet" >
+        <link href= "css/main.css" rel= "stylesheet" >
+      <title>Charles Morgado | Lesson 3 | Site Plan</title>
+      <script src="../js/update.js"></script>  
+    </head>
+<body>
+    <header>
+        <h2>Weather Site Plan</h2>
+        <h3>Charles Morgado</h3>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#">Principal</a></li>
+                <li><a href="target-audience.html">Audience</a></li>
+                <li><a href="color-scheme.html">Colors</a></li>
+                <li><a href="typography.html">Typography</a></li>
+            </ul>
+        </nav>
+
+    <section>
+        <h2>Site Name</h2>
+        <p>Chars Weather</p>
+        <h2>Site Purpose</h2>
+        <p>The purpose is to inform the weather forecast on the cities of Colombia, so that people can better plan their daily activities, as well</p>
+        <h2>Domain Name</h2>
+        <p>weather5ch.com</p>
+        <h2>Logo</h2>
+        <img id="logo" src="images/iconfinder_Weather_54069.png"alt="Logo Weather">
+    </section>
+    </main>
+</body>
+<footer>
+    &copy; <span id="year"></span> | Charles Morgado | Colombia |<a  id="byulink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+    <br />
+    <span id="update"></span> 
+    <script>
+      document.getElementById('year').innerHTML = retornarUpdate();
+      document.getElementById('update').innerHTML = retornarFecha();
+    </script>     
+  </footer>   
+</html>
