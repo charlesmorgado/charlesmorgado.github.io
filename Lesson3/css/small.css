@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=Montserrat:ital,wght@1,500&display=swap');
 body {
-    background-color: #61E8E1;
+    background-color: #ccf0ee;
     font-family: 'Montserrat', sans-serif;
     padding: 4px 25px;
     font-size: 16px;
@@ -31,5 +31,6 @@ body {
     line-height: 2rem;
     max-width: 93%;
  }
-     
+ footer{
+    text-align: center;
 }

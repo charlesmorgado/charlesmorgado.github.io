@@ -1,0 +1,10 @@
+@media (min-width: 64em) { /*large*/
+    main{        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    } 
+    header{
+      max-width: 93%;
+    }
+  
+}
