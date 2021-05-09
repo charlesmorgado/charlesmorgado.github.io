@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="In this site we will have the information of the site plan for our weather page">
+        <link href= "css/normalize.css" rel= "stylesheet" >
+        <link rel="stylesheet" href="css/small.css" />
+        <link rel="stylesheet" href="css/medium.css" />
+        <link rel="stylesheet" href="css/large.css" />
+      <title>Charles Morgado | Lesson 3 | Audience</title>
+      <script src="../js/update.js"></script>  
+    </head>
+    <body>
+        <header>
+            <h2>Weather Site Plan</h2>
+            <h3>Charles Morgado</h3>
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="#">Principal</a></li>
+                    <li><a href="target-audience.html">Audience</a></li>
+                    <li><a href="color-scheme.html">Colors</a></li>
+                    <li><a href="typography.html">Typography</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h2>Target Audience</h2>
+                <p>
+                    This website is designed for the general public who wish to seek information regarding the weather. But it is focused
+                     especially for adults who need to leave their homes to work daily so they can take precautions, also so that people 
+                     can plan their family activities such as camping, going out to rivers, etc.
+                </p>
+                <h2>Personas</h2>
+                <section id="Lili">
+                    <p>
+                        <strong>Name:</strong> Liliana Contreras <br>
+                        <strong>Age:</strong> 38 <br>
+                        <strong>Gender:</strong> Female <br>
+                        <strong>Occupation:</strong> Accountant
+                    </p>
+                </section>
+                <section id="Marce">
+                    <p>
+                        <strong>Name:</strong> Marcelo Chirinos <br>
+                        <strong>Age:</strong> 40 <br>
+                        <strong>Gender:</strong> Male <br>
+                        <strong>Occupation:</strong> Refrigeration Technician
+                    </p>
+                </section>
+                <h2>Scenarios</h2>
+                <p>
+                    How will the weather be tomorrow to go to work? <br> <br>
+                    What will be the best time of day to make appointments with my clients? <br> <br>
+                    Will I be able to stay out late or should I return earlier to avoid the rains? <br> <br>
+                    How is going to be the water level in the river this weekend? <br>
+                </p>
+            </article>
+        </main>
+        <footer>
+            &copy; <span id="year"></span> | Charles Morgado | Colombia |<a  id="byulink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+            <br />
+            <span id="update"></span> 
+            <script>
+              document.getElementById('year').innerHTML = retornarUpdate();
+              document.getElementById('update').innerHTML = retornarFecha();
+            </script>     
+          </footer> 
+        </html>
