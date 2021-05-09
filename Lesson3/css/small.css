@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=Montserrat:ital,wght@1,500&display=swap');
+body {
+    background-color: #61E8E1;
+    font-family: 'Montserrat', sans-serif;
+    padding: 4px 25px;
+    font-size: 16px;
+    margin: 0;
+    color: #444444;
+
+  }
+  img {
+    max-width: 100%;
+  }
+  h1, h2, h3{
+    font-family: 'Bodoni Moda', serif;
+  }
+  nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  header{
+      max-width: 22.5em;
+      background-color: #FABC2A;
+      text-align: center;
+      border-radius: 1em;
+      padding: 0%;
+      margin-left: 10px;
+  }
+  main{
+    display: block;
+    line-height: 2rem;
+    max-width: 93%;
+ }
+     
+}
