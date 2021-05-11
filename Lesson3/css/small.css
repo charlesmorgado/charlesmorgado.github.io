@@ -19,25 +19,30 @@ body {
     text-align: center;
     padding: 0;
   }
-  header{
+  header,footer{
       background-color: #FABC2A;
       text-align: center;
       border-radius: 1em;
-      padding: 0%;
-      margin-left: 10px;
+      padding: 20px;
+      
   }
   main{
     display: block;
     line-height: 2rem;
-    max-width: 93%;
+    
  }
- footer{
-    text-align: center;
-}
+ 
 nav li a{
   display: block;
-  color: black;
+  color: #632B30;
   text-align: center;
-  font-family: 'Sarabun', sans-serif;
+  font-family: 'Bodoni Moda', serif;
   margin: 10px;
+  font-size: 1.5em;
+}
+nav li a:hover{
+  font-family: 'Bodoni Moda', serif;
+  color: #FABC2A;
+  background-color: #632B30;
+  border-radius: 0.5em;
 }
