@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="css/large.css">
         <link rel="shortcut icon" href="icon">
       <title>Website Planning Document</title>
-      <script src="js/date.js"></script>  
+      <script src="../js/update.js"></script>   
       <script src="js/menu.js"></script>
     </head>
     <body>
@@ -22,12 +22,11 @@
             
             <section class="headings">
             <h1>Chars Weather</h1>
-            <div class="button"> Local weather and events </div>
         </section>
         </header>
         <nav>
-            <ul class="menu">
-                <li><a class="navigation" href="#">&#8801 Menu</a></li>
+            <ul class="navigation">
+                <li><a href="#">Menu</a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
@@ -38,19 +37,18 @@
         </nav>
         <main>
             <h2>Preston Idaho</h2>
-            <div class="contentbox">Weather summary</div>
-            <div class="contentbox">5 Day Forecast</div>
-            <div class="contentbox">Article</div>
-            <div class="contentbox">Contact Information</div>
+            <div class="content">Weather summary</div>
+            <div class="content">5 Day Forecast</div>
+            <div class="content">Article</div>
+            <div class="content">Contact Information</div>
         </main>
         <footer>
-          &copy; <span id="year"></span> | Charles Morgado | Colombia |<a  id="byulink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
-          <br />
-          <span id="update"></span> 
-          <script>
-            document.getElementById('year').innerHTML = retornarUpdate();
-            document.getElementById('update').innerHTML = retornarFecha();
-          </script>     
-        </footer>   
-      </body>
-      </html>
+        &copy; <span id="year"></span> | Charles Morgado | Colombia |<a  id="byulink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+        <br />
+        <span id="update"></span> 
+        <script>
+          document.getElementById('year').innerHTML = retornarUpdate();
+          document.getElementById('update').innerHTML = retornarFecha();
+        </script>     
+      </footer> 
+    </html>
