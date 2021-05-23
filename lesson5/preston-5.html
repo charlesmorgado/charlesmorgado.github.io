@@ -16,76 +16,85 @@
       <script defer src="js/banner.js"></script>
     </head>
     <body>
-      <aside id="banner">Saturday = Preston Pancakes in the Park! 9:00a.m. Saturday at the city park pavilion.</aside>
-        <header>
-            <img src="images/icon.png" alt="Icon">
-            <section class="headings">
-            <h1>Chars Weather</h1>
-        </section>
-        </header>
-        <nav>
-          <ul class="navigation">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Preston</a></li>
-              <li><a href="#">Soda Springs</a></li>
-              <li><a href="#">Fish Haven</a></li>
-              <li><a href="#">Storm Center</a></li>
-              <li><a href="#">Gallery</a></li>
-          </ul>
-      </nav>
-        <main>
-          <h2>Preston Idaho</h2>
-          <div class="herodiv">
-  
-              <section class="weatherS">
-                  <h3>Weather Summary</h3>
-                  <hr>
-                  <p>Currently: Sunny</p>
-                  <p>Wind Speed: 4 mph</p>
-                  <p>High: 69 &deg; </p>
-                  <p>Humidity: 64</p>
-                  <p>Wind Chill: 7 mph</p>
-              </section>
-              <img src="images/heroimg.jpg" alt="hero image">
-          </div>
-
-          <div class="box-forecast-large"><!--Para pantalla grandes hacer invisible con JS y css-->
-                   
-            <h2>Five Days Forecast</h2>
-            <div id="five-days">
-                <div class="forecast" id="day1">30 ºC</div>
-                <div class="forecast" id="day2">30 ºC</div>
-                <div class="forecast" id="day3">30 ºC</div>
-                <div class="forecast" id="day4">30 ºC</div>
-                <div class="forecast" id="day5">30 ºC</div>
-            </div>
-        </div>
-
-        <article class="box-forecast-small"><!--Para pantalla pequeñas-->
-          <h2 class="titulo">Five Days Forecast</h2>
-          <section id="down">
-              <h3>Article:</h3>
-              <p class="corto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
-                   Accusamus nesciunt neque dignissimos voluptatibus iusto magni esse reiciendis, <br>
-                   sunt aut quas perferendis dolores accusantium velit quae. Dolor aliquam nesciunt commodi ipsam.</p>
-              <img src="images/green.jpeg" alt="photo Preston" class="secundary-img1" id="derecha">
-          </section>
-      </article>
-  
-  </div><!--Fin de class = box-->
-  <div class="contact">
-      <img src="img/map.png" alt="map" id="map">
-      <section>
-          <h3>Contact information</h3>
-         <p>📧 ben19025@byui.edu</p>
-         <p>📱+57 3102471370</p>
-         <div class="social">
-             <img src="img/facebook.png" alt="FaceBook">
-             <img src="img/twitter.png" alt="Twitter">
-             <img src="img/instagram.png" alt="Instragram">
-         </div>
+      <header>
+        <img src="images/icon.png" alt="Logo" id="logo">
+        <section class="headings">
+        <h1>Chars Weather</h1>
       </section>
-  </div>
+        <button class="menu-button" onclick="showMenu()">&#9776;</button>
+    </header>
+    
+    <div id="active">
+       <strong> "Saturday = Jaboticabal Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."</strong>
+    </div>
+    <script>
+        
+       
+        if(getDia()==5){
+            document.getElementById('active').style.display = "block"; 
+        }
+    </script>
+    <nav class="menu" id="primaryNav">
+        
+        <ul class="navigation" >
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a  href="#">Jaboticabal</a></li>
+            <li><a  href="#">Soda Spring</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+
+    </nav>
+        <main>
+          <div class="box">
+            <h2 class="city">Preston Idaho</h2>
+            <img class="secundary-img" src="images/heroimg.jpg" alt="Banner">
+            <section id="summary" class="transparente">
+                <h3>Weather Summary</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                    Distinctio cupiditate laboriosam sequi corporis obcaecati ea, odio blanditiis <br>
+                    qui quasi pariatur consequuntur accusamus nisi et culpa itaque a deleniti quia optio!<br>
+                </p>
+            </section>
+            <div class="box-forecast-large"><!--Para pantalla grandes hacer invisible con JS y css-->
+               
+                <h2>Five Days Forecast</h2>
+                <div id="five-days">
+                    <div class="forecast" id="day1">30 ºC</div>
+                    <div class="forecast" id="day2">30 ºC</div>
+                    <div class="forecast" id="day3">30 ºC</div>
+                    <div class="forecast" id="day4">30 ºC</div>
+                    <div class="forecast" id="day5">30 ºC</div>
+                </div>
+            </div>
+
+            <article class="box-forecast-small"><!--Para pantalla pequeñas-->
+                <h2 class="titulo">Five Days Forecast</h2>
+                <section id="down">
+                    <h3>Article:</h3>
+                    <p class="corto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+                         Accusamus nesciunt neque dignissimos voluptatibus iusto magni esse reiciendis, <br>
+                         sunt aut quas perferendis dolores accusantium velit quae. Dolor aliquam nesciunt commodi ipsam.</p>
+                    <img src="images/heroimg...jpg" alt="photo Jaboticabal" class="secundary-img1" id="derecha">
+                </section>
+            </article>
+        
+        </div><!--Fin de class = box-->
+        <div class="contact">
+            <img src="images/map.JPG" alt="map" id="map">
+            <section>
+                <h3>Contact information</h3>
+               <p>📧 ben19025@byui.edu</p>
+               <p>📱+57 3102471370</p>
+               <div class="social">
+                   <img src="images/facebook.png" alt="FaceBook">
+                   <img src="images/twitter.png" alt="Twitter">
+                   <img src="images/instagram.png" alt="Instragram">
+               </div>
+            </section>
+        </div>
 
         </main>
         <footer>
