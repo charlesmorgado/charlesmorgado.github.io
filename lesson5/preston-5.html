@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="This is a weather site home page">
+        <link href= "../css/normalize.css" rel= "stylesheet" >
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="shortcut icon" href="favicon.ico">
+      <title>Website Planning Document</title>
+      <script src="../js/update.js"></script>   
+      <script src="../js/menu.js"></script>
+      <script defer src="js/banner.js"></script>
+    </head>
+    <body>
+      <header>
+        <img src="images/icon.png" alt="Logo" id="logo">
+        <section class="headings">
+        <h1>Chars Weather</h1>
+      </section>
+        <button class="menu-button" onclick="showMenu()">&#9776;</button>
+    </header>
+    
+    <div id="active">
+       <strong> "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."</strong>
+    </div>
+    <script>
+        
+       
+        if(getDia()==5){
+            document.getElementById('active').style.display = "block"; 
+        }
+    </script>
+    <nav class="menu" id="primaryNav">
+        
+        <ul class="navigation" >
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a  href="#">Jaboticabal</a></li>
+            <li><a  href="#">Soda Spring</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+
+    </nav>
+        <main>
+          <div class="box">
+            <h2 class="city">Preston Idaho</h2>
+            <img class="secundary-img" src="images/heroimg.jpg" alt="Banner">
+            <section id="summary" class="transparente">
+                <h3>Weather Summary</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                    Distinctio cupiditate laboriosam sequi corporis obcaecati ea, odio blanditiis <br>
+                    qui quasi pariatur consequuntur accusamus nisi et culpa itaque a deleniti quia optio!<br>
+                </p>
+            </section>
+            <div class="box-forecast-large"><!--Para pantalla grandes hacer invisible con JS y css-->
+               
+                <h2>Five Days Forecast</h2>
+                <div id="five-days">
+                    <div class="forecast" id="day1">30 ºC</div>
+                    <div class="forecast" id="day2">30 ºC</div>
+                    <div class="forecast" id="day3">30 ºC</div>
+                    <div class="forecast" id="day4">30 ºC</div>
+                    <div class="forecast" id="day5">30 ºC</div>
+                </div>
+            </div>
+
+            <article class="box-forecast-small"><!--Para pantalla pequeñas-->
+                <h2 class="titulo">Five Days Forecast</h2>
+                <section id="down">
+                    <h3>Article:</h3>
+                    <p class="corto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+                         Accusamus nesciunt neque dignissimos voluptatibus iusto magni esse reiciendis, <br>
+                         sunt aut quas perferendis dolores accusantium velit quae. Dolor aliquam nesciunt commodi ipsam.</p>
+                    <img src="images/heroimg...jpg" alt="photo Jaboticabal" class="secundary-img1" id="derecha">
+                </section>
+            </article>
+        
+        </div><!--Fin de class = box-->
+        <div class="contact">
+            <img src="images/map.JPG" alt="map" id="map">
+            <section>
+                <h3>Contact information</h3>
+               <p>📧 ben19025@byui.edu</p>
+               <p>📱+57 3102471370</p>
+               <div class="social">
+                   <img src="images/facebook.png" alt="FaceBook">
+                   <img src="images/twitter.png" alt="Twitter">
+                   <img src="images/instagram.png" alt="Instragram">
+               </div>
+            </section>
+        </div>
+
+        </main>
+        <footer>
+        &copy; <span id="year"></span> | Charles Morgado | Colombia |<a  id="byulink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+        <br />
+        <span id="update"></span> 
+        <script>
+          document.getElementById('year').innerHTML = retornarUpdate();
+          document.getElementById('update').innerHTML = retornarFecha();
+        </script>     
+      </footer> 
+    </html>
