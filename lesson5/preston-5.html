@@ -11,7 +11,6 @@
         <link rel="stylesheet" href="css/large.css">
         <link rel="shortcut icon" href="favicon.ico">
       <title>Chars Weather | Preston Idaho</title>
-      <script src="../js/update.js"></script>   
       <script src="../js/menu.js"></script>
       <script defer src="js/banner.js"></script>
     </head>
@@ -39,7 +38,7 @@
         <ul class="navigation" >
             <li><a href="#">Menu</a></li>
             <li><a href="#">Home</a></li>
-            <li><a  href="#">Jaboticabal</a></li>
+            <li><a  href="#">Preston</a></li>
             <li><a  href="#">Soda Spring</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -77,7 +76,7 @@
                     <p class="corto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
                          Accusamus nesciunt neque dignissimos voluptatibus iusto magni esse reiciendis, <br>
                          sunt aut quas perferendis dolores accusantium velit quae. Dolor aliquam nesciunt commodi ipsam.</p>
-                    <img src="images/heroimg...jpg" alt="photo Jaboticabal" class="secundary-img1" id="derecha">
+                    <img src="images/sea.jpg" alt="photo Jaboticabal" class="secundary-img1" id="derecha">
                 </section>
             </article>
         
@@ -98,12 +97,11 @@
 
         </main>
         <footer>
-        &copy; <span id="year"></span> | Charles Morgado | Colombia |<a  id="byulink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
-        <br />
-        <span id="update"></span> 
-        <script>
-          document.getElementById('year').innerHTML = retornarUpdate();
-          document.getElementById('update').innerHTML = retornarFecha();
-        </script>     
-      </footer> 
+
+            <p>&copy;<span id="copyright"></span> Chars Weather | Charles Morgado | Colombia |<a  id="byulink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+            <p> <span id="date"></span> </p>
+        </footer>
+        <script src="../js/update.js"></script>
+        <script src="../js/date.js"></script>
+    </body>
     </html>
