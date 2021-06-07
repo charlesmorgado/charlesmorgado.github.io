@@ -186,8 +186,8 @@ footer{
      grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
      max-width: 960px;
      gap: 10px;
-     margin-left:0px auto;
-     margin-right: 0px auto;
+     margin-left:0px;
+     margin-right: 0px;
      margin-top: 10px;
      grid-template-rows: repeat(auto-fill,minmax(210px,1fr));
    
@@ -240,7 +240,7 @@ picture{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }*/
-   */ .city{
+    .city{
         grid-column: 1/-1;
         margin-top: 0px;
     }
