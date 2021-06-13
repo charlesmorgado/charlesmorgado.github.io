@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=Montserrat:ital,wght@1,500&display=swap');
+html{
+  max-width: 500px;
+  justify-content: center;
+}
+img{
+  max-width: 100%;
+}
+#logo{
+  max-width: 128px;
+  max-height: 128px;
+}
+
+h1, h2, h3{
+  font-family: 'Bodoni Moda', serif;
+}
+h1{
+    font-size: 24px;
+}
+header{
+  background-color: #FABC2A;
+  display: flex;
+  padding: 1rem;
+  border-radius: 1em;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+header>h1,header>img,header>button{
+  flex:1;
+  text-align: center;
+
+}
+
+header>img{
+  max-width: 96px;
+}
+header>h1{
+  margin-top: 2rem;
+}
+button{
+  background-color: #632B30;
+  border-style: none;
+}
+body{
+  background-color: #ccf0ee;
+  font-family: 'Montserrat', sans-serif;
+  padding: 4px 25px;
+  font-size: 16px;
+  margin: 0;
+}
+/*.navigation{
+  display: block;
+}*/
+.menu{
+  display: block;/*none*/
+}
+.hide{
+  display: none;
+}
+nav{
+  max-width:1250px;
+  
+}
+nav ul{
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+  text-align: center;
+}
+nav li a{
+  display: block;
+  color: #632B30;
+  text-align: center;
+  font-family: 'Bodoni Moda', serif;
+  margin: 10px;
+  font-size: 2.5em;
+}
+
+
+nav ul li a:hover{
+  font-family: 'Bodoni Moda', serif;
+  color: #FABC2A;
+  background-color: #632B30;
+  border-radius: 0.5em;
+
+}
+
+
+.box{
+    text-align: center;
+     margin-left:auto;
+     margin-right: auto 0;
+     margin-top: 10px;
+    
+}
+
+}
+.titulo{
+  border-bottom: black solid 1px;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  height: 3rem;
+  background-color: #632B30;
+  margin-top: 0px;
+ color: white;
+}
+.city{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  background-color: #632B30;
+  margin-bottom: 0px;
+  border: black solid 1px;
+  color: white;
+}
+.secundary-img1{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  position: relative;
+  top: 3px;
+}
+.contact{
+  padding: 1rem;
+  text-align: center;
+}
+.contact img{
+  width: 320px;
+ 
+}
+.contact .social img{
+  width: 64px;
+ 
+}
+footer{
+  background-color: #FABC2A;
+  border-radius: 1em;
+  text-align: center;
+  padding: 18px;
+  justify-content: center;
+}
+#active{
+  display: none;
+  background-color:#632B30;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 1em;
+  padding-bottom: 1rem;
+  color:white;
+  font-size: 12px;
+}
+.headings{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 15px;
+}
+form{
+    text-align: center;
+    max-width: 960px;
+    min-width: 400px;
+    padding:15px;
+    line-height: 2rem;
+   background-color: #61E8E1;
+}
+fieldset{
+    border-radius: 5px;
+}
+legend{padding: 10px;}
+input{
+    margin:  15px;
+}
+form{
+    text-align: center;
+    max-width: 960px;
+    min-width: 400px;
+    padding:15px;
+    line-height: 2rem;
+   
+}
+#report{
+    margin-top: 15px;
+    max-width: 200px;
+    max-height: 100px;
+    min-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    display:none;
+}
+input, textarea{border-radius: 3px;
+line-height: 1.3em;}
+.required{color:red;
+           font-size: 1.5em;}
