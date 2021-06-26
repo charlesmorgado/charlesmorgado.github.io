@@ -19,7 +19,7 @@
      .left{
          grid-column: 1;
          grid-row: 1;
-     };
+     }
      data{
          grid-column: -1;
      }/*fin de medium para el index*/
