@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=Montserrat:ital,wght@1,500&display=swap');
+
+html{
+    max-width: 500px;
+}
+img{
+    max-width: 100%;
+}
+#logo{
+    max-width: 128px;
+    max-height: 128px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3{
+    font-family: 'Bodoni Moda', serif;
+};
+  }
+  h1{
+      font-size: 24px;
+  }
+header{
+    background-color: #FABC2A;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border-radius: 1em;
+}
+header>h1,header>img,header>button{
+    flex:1;
+    text-align: center;
+
+}
+
+header>img{
+    max-width: 96px;
+}
+header>h1{
+    margin-top: 2rem;
+}
+button{
+    background-color: #008789;
+    border-style: none;
+}
+body{
+    background-color: #ccf0ee;
+}
+/*.navigation{
+    display: block;
+}*/
+.menu{
+    display: block;/*none*/
+}
+.hide{
+    display: none;
+}
+nav{
+    max-width:1250px;
+    
+}
+nav ul{
+    padding: 0%;
+    margin: 0%;
+}
+nav ul li{
+    list-style: none;
+    padding: .8rem 2%;
+    margin: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: .8rem 2%;
+    margin: 1rem;
+    color: #0c0c0c;
+   
+    
+    
+}
+nav ul li a:hover{
+    background-color:#632B30;
+    color: #FABC2A;
+ 
+}
+#linkbyu{
+    color:white;
+    text-decoration: none;
+    
+   
+}
+.box{
+    background-color:white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-forecast-large{
+    display: none;
+}
+
+.box-forecast-small{
+    border:black solid 1px;
+   
+  
+
+}
+.titulo{
+    border-bottom: black solid 1px;
+    padding-left: 1rem;
+    padding-bottom 1rem;
+    padding-top: 1rem;
+    height: 3rem;
+    background-color: #632B30;
+    margin-top: 0px;
+    color: white;
+}
+.city{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    background-color: #632B30;
+    margin-bottom: 0px;
+    border: black solid 1px;
+    color: white;
+}
+.secundary-img1{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    top: 3px;
+}
+.contact{
+    padding: 1rem;
+    text-align: center;
+}
+.contact img{
+    width: 320px;
+   
+}
+.contact .social img{
+    width: 64px;
+   
+}
+footer{
+    background-color: #FABC2A;
+    border-radius: 1em;
+    text-align: center;
+    padding: 18px;
+    justify-content: center;
+}
+#active{
+    display: none;
+    background-color:#632B30;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1em;
+    padding-bottom: 1rem;
+    color:white;
+    font-size: 12px;
+}
+#label{
+    font-style: oblique;
+    
+    color: red;
+    font-size: 2rem;
+    font-weight: 800;
+    position: relative;
+    left:60%;
+    top: -15rem;
+}
+
