@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="This is a gallery page for preston community page ">
+        <link href= "../css/normalize.css" rel= "stylesheet" >
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="shortcut icon" href="favicon.ico">
+      <title>Gallery Page</title>
+      <script src="../js/menu.js"></script>
+      <script src="js/windchill.js"></script>
+      <script src="js/utilities.js"></script>
+      <script defer src="js/banner.js"></script>
+    </head>
+    <body>
+      <header>
+        <img src="images/icon.png" alt="Logo" id="logo">
+        <section class="headings">
+        <h1>Chars Weather</h1>
+      </section>
+        <button class="menu-button" onclick="showMenu()">&#9776;</button>
+    </header>
+    
+    <div id="active">
+       <strong> "Saturday = Preston Pancakes in the Park!!  9:00 a.m. Saturday at the city park pavilion."</strong>
+    </div>
+    <script>
+        
+       
+        if(getDia()==5){
+            document.getElementById('active').style.display = "block"; 
+        }
+    </script>
+    <nav class="menu" id="primaryNav">
+        
+        <ul class="navigation" >
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a  href="#">Preston</a></li>
+            <li><a  href="#">Soda Spring</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+
+    </nav>
+        <main>
+          
+            <div class="box">
+                <figure>
+                    <img src="images/placeholder.png" data-src="images/weather.jpg" alt="weather">
+                    <figcaption>Something</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder.png" data-src="images/weather1.jpg" alt="weather1">
+                    <figcaption>Something</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder.png" data-src="images/weather2.jpg" alt="weather2">
+                    <figcaption>Something</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/placeholder.png" data-src="images/weather3.jpg" alt="weather3">
+                    <figcaption>Something</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder.png" data-src="images/weather4.jpg" alt="weather4">
+                    <figcaption>Something</figcaption>
+
+                </figure>
+                <figure>
+                    <img src="images/placeholder.png" data-src="images/weather5.jpg" alt="weather5">
+                    <figcaption>Something</figcaption>
+
+                </figure>
+                <figure>
+                    <img src="images/placeholder.png" data-src="images/weather6.jpg" alt="weather6">
+                    <figcaption>Something</figcaption>
+
+                </figure>
+                <figure>
+                    <img src="images/placeholder.png" data-src="images/weather7.jpg" alt="weather7">
+                    <figcaption>Something</figcaption>
+
+                </figure>
+                <figure>
+                    <img src="images/placeholder.png" data-src="images/weather8.jpg" alt="weather8">
+                    <figcaption>Something</figcaption>
+
+                </figure>
+                
+            </div><!--Fin de class = box-->
+        <div class="contact">
+            <img src="images/map.JPG" alt="map" id="map">
+            <section>
+                <h3>Contact information</h3>
+               <p>📧 ben19025@byui.edu</p>
+               <p>📱+57 3102471370</p>
+               <div class="social">
+                   <img src="images/facebook.png" alt="FaceBook">
+                   <img src="images/twitter.png" alt="Twitter">
+                   <img src="images/instagram.png" alt="Instragram">
+               </div>
+            </section>
+        </div>
+
+        </main>
+        <script src="js/lazyload.js"></script>
+        <footer>
+
+            <p>&copy;<span id="copyright"></span> Chars Weather | Charles Morgado | Colombia |<a  id="byulink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+            <p><span id="date"></span> </p>
+        </footer>
+        <script src="../js/update.js"></script>
+        <script src="../js/date.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+              google: {
+                families: ['Montserrat', sans-serif],
+              },
+            });
+          </script>
+    </body>
+    </html>
