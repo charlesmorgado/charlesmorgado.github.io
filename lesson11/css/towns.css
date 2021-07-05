@@ -162,7 +162,7 @@ nav ul li a:hover{
 }
 footer{
     background-color: #FABC2A;
-    border-radius: 1sem;
+    border-radius: 1em;
     text-align: center;
     padding: 18px;
     justify-content: center;
@@ -212,7 +212,7 @@ footer{
       display: inline;  
     }
     nav ul{
-        display: grid;
+        /*display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         text-decoration: none;
         list-style: none;
@@ -220,8 +220,11 @@ footer{
         margin-right: 1em;
         margin-top: 5px;
         border: #0c0c0c solid 1px; 
-        border-radius: 1.3em;
-
+        border-radius: 1.3em;*/
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+         text-decoration: none;
+         list-style: none;
     }
     nav ul li a{
         
