@@ -30,7 +30,7 @@ header{
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 1rem;
-    
+    align-items: center;
 }
 header>h1,header>img,header>button{
     flex:1;
