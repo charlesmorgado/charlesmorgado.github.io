@@ -32,6 +32,7 @@ header{
     margin-top: 1rem;
     align-items: center;
     border-radius: 1.3em;
+    margin: auto;
 }
 header>h1,header>img,header>button{
     flex:1;
@@ -51,6 +52,9 @@ button{
 }
 body{
     background-color: #ccf0ee;
+    padding: 4px 25px;
+    font-size: 16px;
+    margin: 0;
 }
 
 .menu{
@@ -66,9 +70,9 @@ nav{
 nav ul{
     padding: 0%;
     margin: 0%;
-    margin-left: 1em; 
-    margin-right: 1em;
-    margin-top: 5px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
     border: #0c0c0c solid 1px; 
     border-radius: 1.3em;
 }

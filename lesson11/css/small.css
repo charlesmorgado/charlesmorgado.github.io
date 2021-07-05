@@ -80,6 +80,8 @@ nav ul{
     list-style: none;
     text-align: center;
     padding: 0;
+    border: #0c0c0c solid 1px; 
+    border-radius: 1.3em;
 }
 nav ul li{
     list-style: none;
