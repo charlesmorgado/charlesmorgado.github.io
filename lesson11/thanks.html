@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="This is a gallery page for preston community page ">
+        <link href= "../css/normalize.css" rel= "stylesheet" >
+        <link rel="stylesheet" href="css/storm.css">
+      <title>Storm Center</title>
+      <script src="../js/menu.js"></script>
+      <script defer src="js/banner.js"></script>
+    </head>
+    <body>
+      <header>
+        <img src="images/icon.png" alt="Logo" id="logo">
+        <section class="headings">
+        <h1>Chars Weather</h1>
+      </section>
+        <button class="menu-button" onclick="showMenu()">&#9776;</button>
+    </header>
+    
+    <div id="active">
+       <strong> "Saturday = Preston Pancakes in the Park!!  9:00 a.m. Saturday at the city park pavilion."</strong>
+    </div>
+    <script>
+        
+       
+        if(getDia()==5){
+            document.getElementById('active').style.display = "block"; 
+        }
+    </script>
+    <nav class="menu" id="primaryNav">
+        
+        <ul class="navigation" >
+            <li><a href="#">Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a  href="preston.html">Preston</a></li>
+            <li><a  href="sodasprings.html">Soda Spring</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+
+    </nav>
+        <main>
+            <div class="box">
+                <h1>Thank you for filling out the form</h1>
+                <h2><a href="stormcenter.html">Report another Storm</a></h2>
+            </div><!--Fin de class = box-->
+            <div class="contact">
+                <img src="images/map.JPG" alt="map" id="map">
+                <section>
+                    <h3>Contact information</h3>
+                   <p>📧 ben19025@byui.edu</p>
+                   <p>📱+57 3102471370</p>
+                   <div class="social">
+                       <img src="images/facebook.png" alt="FaceBook">
+                       <img src="images/twitter.png" alt="Twitter">
+                       <img src="images/instagram.png" alt="Instragram">
+                   </div>
+                </section>
+            </div>
+        
+            </main>
+            <script src="js/lazyload.js"></script>
+            <footer>
+        
+                <p>&copy;<span id="copyright"></span> Chars Weather | Charles Morgado | Colombia |<a  id="byulink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+                <p><span id="date"></span> </p>
+            </footer>
+            <script src="../js/update.js"></script>
+            <script src="../js/date.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>
+                WebFont.load({
+                  google: {
+                    families: ['Montserrat', sans-serif],
+                  },
+                });
+              </script>
+        </body>
+        </html>
