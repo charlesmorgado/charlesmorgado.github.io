@@ -96,10 +96,10 @@ nav ul li a{
 nav ul li a:hover{
     background-color:#632B30;;
     color: #FABC2A;
-    border-radius: 1rem;
+    border-radius: 0.5sem;
  
 }
-#linkbyu{
+#byulink{
     color: #632B30;
     text-decoration: none;
     
@@ -161,7 +161,7 @@ footer{
     background-color: #FABC2A;
     border-radius: 1.3em;
     text-align: center;
-  justify-content: center;
+    justify-content: center;
 
 }
 #active{
