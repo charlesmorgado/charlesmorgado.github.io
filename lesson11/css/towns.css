@@ -96,7 +96,7 @@ nav ul li a{
 nav ul li a:hover{
     background-color:#632B30;;
     color: #FABC2A;
-    border-radius: 0.5sem;
+    border-radius: 0.5em;
  
 }
 #byulink{
@@ -161,6 +161,7 @@ footer{
     background-color: #FABC2A;
     border-radius: 1.3em;
     text-align: center;
+    padding: 18px;
     justify-content: center;
 
 }
