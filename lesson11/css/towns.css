@@ -114,7 +114,7 @@ nav ul li a:hover{
 
 .box-forecast-small{
     border:black solid 1px;
-   
+    background-color:white;
   
 
 }
@@ -124,17 +124,18 @@ nav ul li a:hover{
     padding-bottom 1rem;
     padding-top: 1rem;
     height: 3rem;
-    background-color: #008789;
+    background-color: #632B30;
     margin-top: 0px;
-   
+    color: white;
 }
 .city{
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
-    background-color: #008789;
+    background-color: #632B30;
     margin-bottom: 0px;
     border: black solid 1px;
+    color: white;
 }
 .secundary-img1{
     margin-bottom: 0px;
@@ -161,7 +162,7 @@ footer{
 }
 #active{
     display: none;
-    background-color:#009c3b;
+    background-color:#632B30;
     margin-left: 1rem;
     margin-right: 1rem;
     padding-top: 1em;
@@ -245,8 +246,8 @@ footer{
         display: inline;
         grid-column: 1/-1;
         
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
         padding: 10px;
     }
     .box-forecast-small{
@@ -390,8 +391,8 @@ footer{
         .box-forecast-large{
             display: inline;
             grid-column: 1/-1;
-            background-color: #0c0c0c;
-            color: white;
+            background-color: white;
+            color: black;
             padding: 12px;
         }
         .box-forecast-small{

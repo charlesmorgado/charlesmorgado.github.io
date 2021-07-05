@@ -19,7 +19,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         text-decoration: none;
         list-style: none;
-
+        border-radius: 1.3em;
     }
     nav ul li a{
         
