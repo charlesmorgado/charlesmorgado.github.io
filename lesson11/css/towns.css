@@ -95,6 +95,7 @@ nav ul li a{
 nav ul li a:hover{
     background-color:#632B30;;
     color: #FABC2A;
+    border-radius: 1rem;
  
 }
 #linkbyu{
@@ -159,6 +160,8 @@ footer{
     background-color: #FABC2A;
     border-radius: 1.3em;
     text-align: center;
+  justify-content: center;
+
 }
 #active{
     display: none;
@@ -196,8 +199,8 @@ footer{
         display: none;
     }
     header>h1{
-        margin-left: 1rem;
-        text-align: left;
+       /* margin-left: 1rem;*/
+        text-align: center;
     
     }
     nav{
@@ -351,9 +354,10 @@ footer{
         .menu-button{
             display: none;
         }
-        header>h1{
+        header>img,h1{
             margin-left: 1rem;
-            text-align: left;
+            text-align: center;
+            justify-content: center;
         
         }
         nav{
@@ -392,7 +396,7 @@ footer{
             display: inline;
             grid-column: 1/-1;
             background-color: white;
-            color: black;
+            color: ;
             padding: 12px;
         }
         .box-forecast-small{
@@ -422,7 +426,7 @@ footer{
             background-color: rgba(240, 240, 240, 0.8);
             padding: .5em;
             text-align: left;
-            height: 32%;
+            height: 36%;
             width: 30%;
             font-size:1.1em;
             border: black solid 1px;
