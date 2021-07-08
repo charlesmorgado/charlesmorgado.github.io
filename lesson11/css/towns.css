@@ -45,7 +45,7 @@ header>h1{
     margin-top: 2rem;
 }
 button{
-    background-color: #632B30
+    background-color: #632B30;
     border-style: none;
 }
 #x{
@@ -126,7 +126,7 @@ nav ul li a:hover{
 .titulo{
     border-bottom: black solid 1px;
     padding-left: 1rem;
-    padding-bottom 1rem;
+    padding-bottom: 1rem;
     padding-top: 1rem;
     height: 3rem;
     background-color: #632B30;
@@ -404,7 +404,6 @@ footer{
             display: inline;
             grid-column: 1/-1;
             background-color: white;
-            color: ;
             padding: 12px;
         }
         .box-forecast-small{
