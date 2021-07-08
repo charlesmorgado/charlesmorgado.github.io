@@ -35,16 +35,16 @@
             }
         </script>
         <nav class="menu" id="primaryNav">
-            
+            <button id="x" class="menu-button" onclick="showMenu()">X</button>      
             <ul class="navigation" >
-                <li><a href="#"><button id="x"class="menu-button" onclick="showMenu()">X</button></a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a  href="preston.html">Preston</a></li>
-                <li><a  href="sodasprings.html">Soda Spring</a></li>
-                <li><a href="fishhaven.html">Fish Haven</a></li>
-                <li><a href="stormcenter.html">Storm Center</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a  href="preston.html">Preston</a></li>
+                    <li><a  href="sodasprings.html">Soda Spring</a></li>
+                    <li><a href="fishhaven.html">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
 
         </nav>
         <main>
@@ -81,28 +81,29 @@
                     <h2>Forecast for the next Five days</h2>
                     <div id="five-days">
                         <div class="forecast" >
-                            <div id="01" class="dia">lun.</div>
-                            <img src="" alt="" class="icon" id="icon1">
-                            <div><span id="day1">30</span> ºF</div>
-                        </div>
-                        <div class="forecast">
-                            <div id="02" class="dia">mar.</div>
-                            <img src="" alt="" class="icon" id="icon2">
-                            <div><span id="day2">30</span> ºF</div></div>
-
-                        <div class="forecast" >
-                            <div id="03" class="dia">mie.</div>
-                            <img src="" alt="" class="icon" id="icon3">
-                            <div><span id="day3">30</span> ºF</div></div>
-                        <div class="forecast" >
-                            <div id="04" class="dia">xxx.</div>
-                            <img src="" alt="" class="icon" id="icon4">
-                            <div><span id="day4">30</span> ºF</div></div>
-
-                        <div class="forecast" >
-                            <div id="05" class="dia">xxx.</div>
-                            <img src="" alt="" class="icon" id="icon5">
-                            <div><span id="day5">30</span> ºF</div></div>
+                            <div class="forecast" >
+                                <div id="01" class="dia">lun.</div>
+                                <img src="images/01d.png" alt="sun" class="icon" id="icon1">
+                                <div><span id="day1">30</span> ºF</div>
+                            </div>
+                            <div class="forecast">
+                                <div id="02" class="dia">mar.</div>
+                                <img src="images/01d.png" alt="sun" class="icon" id="icon2">
+                                <div><span id="day2">30</span> ºF</div></div>
+    
+                            <div class="forecast" >
+                                <div id="03" class="dia">mie.</div>
+                                <img src="images/03d.png" alt="cloud" class="icon" id="icon3">
+                                <div><span id="day3">30</span> ºF</div></div>
+                            <div class="forecast" >
+                                <div id="04" class="dia">xxx.</div>
+                                <img src="images/04d.png" alt="dark" class="icon" id="icon4">
+                                <div><span id="day4">30</span> ºF</div></div>
+    
+                            <div class="forecast" >
+                                <div id="05" class="dia">xxx.</div>
+                                <img src="images/04d.png" alt="dark" class="icon" id="icon5">
+                                <div><span id="day5">30</span> ºF</div></div>
                     </div>
                    <script>
                        getForecast(5585010);
